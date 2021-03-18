@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main_container {
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  height: 80px;
+  background-color: rgb(0, 255, 136);
+}
+nav {
+  height: 40px;
+  background-color: rgb(2, 240, 188);
+}
+.bg_img {
+  background-color: rgb(5, 189, 173);
+  height: 250px;
+}
+.main_title {
+  height: 80px;
+  background-color: yellow;
+}
+.container {
+  /* altezza temporanea in quanto ancora senza contenuti  */
+  height: 500px;
+}
+
+.sidebar_l,
+.sidebar_r {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.sidebar_l {
+  background-color: rgb(253, 195, 5);
+}
+.main_content {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(255, 115, 0);
+  float: left;
+}
+.sidebar_r {
+  background-color: rgb(255, 60, 0);
+}
+
+.main_footer {
+  height: 40px;
+  background-color: rgb(182, 55, 55);
+}
